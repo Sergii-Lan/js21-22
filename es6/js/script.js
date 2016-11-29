@@ -60,9 +60,9 @@ $(function () {
     /**------------get rightAnswers----------------*/
 
     let rightAnswers = [];
-    for (var i = 0; i < myDat.question.length; i++) {
-        for (var j = 0; j < myDat.question[i].answer.length; j++) {
-            var currentAnswer = myDat.question[i].answer[j].check;
+    for (let i = 0; i < myDat.question.length; i++) {
+        for (let j = 0; j < myDat.question[i].answer.length; j++) {
+            let currentAnswer = myDat.question[i].answer[j].check;
             rightAnswers.push(currentAnswer);
         }
     }
